@@ -1,0 +1,31 @@
+{
+  "name": "ePosterAPI",
+  "version": "1.0.0",
+  "description": "Verbesserte und Organisierte Version der ePoster API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "run": "node server.js"
+  },
+  "keywords": [],
+  "author": "Marvin Block",
+  "license": "None",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "ldapjs": "^2.2.4",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.2.5",
+    "sequelize": "^5.21.3",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
